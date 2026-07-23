@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CCAgentOrg/creatives/main/logos/cc-agent-org-dark.png">
-  <img alt="CCAgentOrg" src="https://raw.githubusercontent.com/CCAgentOrg/creatives/main/logos/cc-agent-org-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CCAgentOrg/creatives/main/ccagentorg-logo/ccagentorg-logo.png">
+  <img alt="CCAgentOrg" src="https://raw.githubusercontent.com/CCAgentOrg/creatives/main/ccagentorg-logo/ccagentorg-logo.png" width="320">
 </picture>
 
 **Open data, infrastructure accountability, and systems research — by CashlessConsumer.**
