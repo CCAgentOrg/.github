@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <strong>Open data · Infrastructure accountability · Systems research</strong>
+  <strong>Open data · Infrastructure accountability · Consumer protection</strong>
   <br>
   <sub>by CashlessConsumer — the consumer collective's digital advocate</sub>
 </p>
@@ -12,100 +12,84 @@
 <p align="center">
   <a href="https://cashlessconsumer.zo.space"><img src="https://img.shields.io/badge/Zo_Space-000000?style=flat-square&logo=readthedocs&logoColor=white" alt="Zo Space"></a>
   <a href="https://cashlessconsumer.in"><img src="https://img.shields.io/badge/Newsletter-FF6B6B?style=flat-square&logo=substack&logoColor=white" alt="Newsletter"></a>
-  <a href="https://github.com/CCAgentOrg?tab=repositories&type=source"><img src="https://img.shields.io/badge/Public_Repos-54+-2ea44f?style=flat-square&logo=github" alt="Repos"></a>
-  <a href="https://github.com/CCAgentOrg"><img src="https://img.shields.io/badge/Daily_Updates-GitHub_Actions-blue?style=flat-square&logo=githubactions" alt="Automated"></a>
+  <a href="https://cyber.cashlessconsumer.in"><img src="https://img.shields.io/badge/Security_Research-8B0000?style=flat-square&logo=hackthebox&logoColor=white" alt="Security Research"></a>
   <a href="https://github.com/CCAgentOrg/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/CC0-1.0-lightgrey?style=flat-square" alt="License"></a>
 </p>
 
 ---
 
-We audit India's digital infrastructure, track fintech markets, expose governance gaps, and make complex systems understandable. Everything here is **reproducible, documented, and built on open data**.
-
-Our tools run daily via GitHub Actions and Zo Computer automations — from DNS audits of 1,500+ bank domains to fintech stock monitoring to Tamil LLM benchmarks.
+We audit India's digital infrastructure, track fintech markets, document consumer harms, and expose governance gaps. Everything here is **reproducible, documented, and built on open data** — datasets land in CSV/JSONL/Parquet/SQLite, and the pipelines run daily on GitHub Actions and Zo Computer automations.
 
 ---
 
-## 📌 Core Projects
+## 🏦 Financial Domain Audits
 
-### 🏦 Financial Domain & RBI Audits
 | Project | What it does |
 |---------|-------------|
-| [`bank-in-domains`](https://github.com/CCAgentOrg/bank-in-domains) | Daily DNS/HTTPS audit of all 1,500+ `.bank.in` domains + parallel Indian financial TLDs |
-| [`bank-domains-ui`](https://github.com/CCAgentOrg/bank-domains-ui) | Searchable UI over the `.bank.in` audit dataset |
-| [`deepseekingrbi`](https://github.com/CCAgentOrg/deepseekingrbi) | Governance failure analysis of RBI's entity network — IDRBT, payment systems, accountability |
-| [`idrbt-bankin-investigation`](https://github.com/CCAgentOrg/idrbt-bankin-investigation) | Full security investigation into the IDRBT `.bank.in` Domain Registry Portal |
-| [`bankin-scorecard`](https://github.com/CCAgentOrg/bankin-scorecard) | Compliance scoring across all `.bank.in` domains |
+| [`bank-in-domains`](https://github.com/CCAgentOrg/bank-in-domains) | Daily audit of India's financial namespace — 4,000+ entries across `.bank.in`, `.fin.in`, `.insurance.in`, `.nbfc.in`, `.npci.in` and global `.bank`: DNS, HTTPS, status codes, certs |
+| [`bank-domains-ui`](https://github.com/CCAgentOrg/bank-domains-ui) | Searchable UI over the bank domain audit dataset |
+| [`bankin-scorecard`](https://github.com/CCAgentOrg/bankin-scorecard) | Compliance scoring across `.bank.in` domains |
+| [`idrbt-bankin-investigation`](https://github.com/CCAgentOrg/idrbt-bankin-investigation) | Security investigation into the IDRBT `.bank.in` Domain Registry Portal |
+| [`IndianBankOpenData`](https://github.com/CCAgentOrg/IndianBankOpenData) | Open datasets on Indian banking |
 
-### 📊 DPI & Fintech Market Monitoring
+## 📊 DPI & Fintech Monitoring
+
 | Project | What it does |
 |---------|-------------|
-| [`dpi-watch`](https://github.com/CCAgentOrg/dpi-watch) | DPI stock monitoring newsletter — tracking listed entities riding India's digital infrastructure buildout |
+| [`dpi-watch`](https://github.com/CCAgentOrg/dpi-watch) | DPI stock monitoring — listed entities riding India's digital public infrastructure buildout |
 | [`cashless-watch`](https://github.com/CCAgentOrg/cashless-watch) | Daily fintech newsletter + Indian fintech/payment stock summaries |
-| [`companies`](https://github.com/CCAgentOrg/companies) | Documentary dossiers on every listed entity in India — structured, multi-perspective, data-rich |
-| [`card-block-api`](https://github.com/CCAgentOrg/card-block-api) | Open global card blocking directory — know which countries block which card networks |
-| [`upi-harm-db`](https://github.com/CCAgentOrg/upi-harm-db) | UPI harm database — research on failures, frauds, and service issues |
-| [`aadhaar-harm-db`](https://github.com/CCAgentOrg/aadhaar-harm-db) | Aadhaar harm database — documenting exclusion, fraud, and system failures |
+| [`dpiwatch`](https://github.com/CCAgentOrg/dpiwatch) | DPI Watch archive |
+| [`aepds-uptime`](https://github.com/CCAgentOrg/aepds-uptime) | Uptime monitor for Indian state AePDS (Aadhaar-enabled PDS) portals, Gatus-powered |
 
-### 🧠 Analysis & Research
+## 🛡️ Consumer Harm & Protection
+
 | Project | What it does |
 |---------|-------------|
-| [`semantic-thinking`](https://github.com/CCAgentOrg/semantic-thinking) | Structured reasoning recipes (semantic-algos) applied to the day's biggest ideas |
-| [`no-parandhur`](https://github.com/CCAgentOrg/no-parandhur) | Data-driven case against the Parandur greenfield airport project |
-| [`world-bank-india`](https://github.com/CCAgentOrg/world-bank-india) | Marxist data review of World Bank India operations |
-| [`agristack-farmers-voice`](https://github.com/CCAgentOrg/agristack-farmers-voice) | Farmer-centric analysis of India's AgriStack and digital agriculture infrastructure |
+| [`upi-harm-db`](https://github.com/CCAgentOrg/upi-harm-db) | UPI harm database — failures, frauds, and service issues |
+| [`aadhaar-harm-db`](https://github.com/CCAgentOrg/aadhaar-harm-db) | Aadhaar harm database — exclusion, fraud, and system failures |
+| [`card-block-api`](https://github.com/CCAgentOrg/card-block-api) | Open global card blocking directory — which countries block which card networks |
+| [`card-block`](https://github.com/CCAgentOrg/card-block) | Card blocking data |
+
+## 🔍 Investigations & Governance
+
+| Project | What it does |
+|---------|-------------|
+| [`deepseekingrbi`](https://github.com/CCAgentOrg/deepseekingrbi) | DeepSeeking Accountability in RBI — governance failures in RBI's entity network |
 | [`cbse-osm-osint`](https://github.com/CCAgentOrg/cbse-osm-osint) | OSINT investigation into CBSE's OSM exam-tech scandal |
-| [`kanagasabai`](https://github.com/CCAgentOrg/kanagasabai) | கனகசபை — Tamil Nadu Policy Research \| Seyarkai Arasiyal |
-
-### 🔧 Tooling & Infrastructure
-| Project | What it does |
-|---------|-------------|
-| [`ShowZo`](https://github.com/CCAgentOrg/ShowZo) | AI agentic walkthrough video generator — URL + scenario → produced walkthrough |
-| [`zo-kvaesitso-plugin`](https://github.com/CCAgentOrg/zo-kvaesitso-plugin) | Search Zo Computer workspace from the Kvæsitso Android launcher |
-| [`swamp-duckdb`](https://github.com/CCAgentOrg/swamp-duckdb) | DuckDB query model + datastore backend for the swamp extension system |
-| [`swamp-extension-creator`](https://github.com/CCAgentOrg/swamp-extension-creator) | Scaffolds, validates, and publishes swamp extensions |
 | [`xgrivancemon`](https://github.com/CCAgentOrg/xgrivancemon) | Transport grievance redressal monitoring via X API + TursoDB |
-| [`aepds-uptime`](https://github.com/CCAgentOrg/aepds-uptime) | Uptime monitor for Indian state AePDS (Aadhaar-enabled PDS) portals |
 
-### 📖 Publishing & Language
+## 🎨 Brand & Creatives
+
 | Project | What it does |
 |---------|-------------|
-| [`books`](https://github.com/CCAgentOrg/books) | Source-controlled books with automated PDF publishing via pandoc + Eisvogel |
-| [`nanobot-blog`](https://github.com/CCAgentOrg/nanobot-blog) | AI assistant experiments and insights |
-| [`tamil-llm-eval`](https://github.com/CCAgentOrg/tamil-llm-eval) | Pelican-style benchmark for LLM Tamil understanding — morphology, proverbs, diglossia |
-| [`SEA-HELM`](https://github.com/CCAgentOrg/SEA-HELM) | Tamil-specific evaluation using SEA-HELM methodology |
-| [`dyk-api-saas`](https://github.com/CCAgentOrg/dyk-api-saas) | Trivia augmentation API — semantic search over 118K+ Wikipedia DYK facts |
+| [`creatives`](https://github.com/CCAgentOrg/creatives) | Logos, design files, and brand assets — CC0 public domain |
 
 ---
 
 ## 🔄 Automated Pipelines
 
-Many of these projects run **every day** on GitHub Actions or Zo Computer automations:
+Many repos update themselves — no human in the loop:
 
 | Pipeline | Schedule | What it does |
 |----------|----------|-------------|
-| `bank-in-domains` audit | Daily | DNS resolution, HTTPS probe, cert validation for all `.bank.in` domains |
-| `cashless-watch` newsletter | Daily 08:00 IST | Curated fintech news + stock summaries |
-| `dpi-watch` newsletter | Mon–Fri 08:15 IST | DPI stock monitoring |
-| `uptime-tracker` | Every 5 min | Indian bank netbanking portal availability on Fly.io |
-| `aepds-uptime` | Every 5 min | AePDS portal status monitoring via Gatus |
+| `bank-in-domains` | Daily | DNS + HTTPS probe of every discovered financial-namespace domain |
+| `cashless-watch` | Daily 08:00 IST | Curated fintech newsletter + stock summaries |
+| `dpi-watch` | Mon–Fri 08:15 IST | DPI stock monitoring |
+| `aepds-uptime` | Every 5 min | AePDS portal status via Gatus |
 
 ---
 
-## 📈 Project Stats
-
 <a href="https://github.com/CCAgentOrg/bank-in-domains">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CCAgentOrg/creatives/main/ccagentorg-logo/ccagentorg-logo.png" width="1">
-    <img alt="CCAgentOrg analytics" src="https://github-readme-stats.vercel.app/api/pin/?username=CCAgentOrg&repo=bank-in-domains&theme=transparent&hide_border=true&description_lines_count=2" width="380">
-  </picture>
+  <img alt="bank-in-domains" src="https://github-readme-stats.vercel.app/api/pin/?username=CCAgentOrg&repo=bank-in-domains&theme=transparent&hide_border=true&description_lines_count=2" width="380">
 </a>
-<a href="https://github.com/CCAgentOrg/companies">
-  <img alt="Companies" src="https://github-readme-stats.vercel.app/api/pin/?username=CCAgentOrg&repo=companies&theme=transparent&hide_border=true&description_lines_count=2" width="380">
+<a href="https://github.com/CCAgentOrg/upi-harm-db">
+  <img alt="upi-harm-db" src="https://github-readme-stats.vercel.app/api/pin/?username=CCAgentOrg&repo=upi-harm-db&theme=transparent&hide_border=true&description_lines_count=2" width="380">
 </a>
 
 ---
 
 <p align="center">
-  <sub>53 public repositories — built with open data, open tools, and open questions.<br>
-  Maintained by CashlessConsumer · <a href="https://github.com/CashlessConsumer">@CashlessConsumer</a></sub>
+  <sub>Everything published as open data (CC0 where marked).<br>
+  Maintained by <a href="https://github.com/CashlessConsumer">@CashlessConsumer</a> ·
+  Sister orgs: <a href="https://github.com/LogicIncZo">LogicIncZo</a> (AI software factory) · <a href="https://github.com/DigitalIndiaArchiver">DigitalIndiaArchiver</a> (DPI open-data archives)</sub>
 </p>
