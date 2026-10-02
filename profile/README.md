@@ -14,6 +14,7 @@
   <a href="https://cashlessconsumer.in"><img src="https://img.shields.io/badge/Newsletter-FF6B6B?style=flat-square&logo=substack&logoColor=white" alt="Newsletter"></a>
   <a href="https://cyber.cashlessconsumer.in"><img src="https://img.shields.io/badge/Security_Research-8B0000?style=flat-square&logo=hackthebox&logoColor=white" alt="Security Research"></a>
   <a href="https://github.com/CCAgentOrg/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/CC0-1.0-lightgrey?style=flat-square" alt="License"></a>
+  <a href="https://github.com/sponsors/srikanthlogic"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=flat-square&logo=githubsponsors&logoColor=white" alt="Sponsor"></a>
 </p>
 
 ---
